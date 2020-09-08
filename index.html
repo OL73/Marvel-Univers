@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- lien CDN Font Awesome -->
+    <script src="https://kit.fontawesome.com/8510f7070a.js" crossorigin="anonymous"></script>
+    <!-- Font Google Roboto -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="default.css">
+    <title>Accueil - Marvel Universe</title>
+</head>
+
+<body>
+    <header>
+        <div id="container">
+            <div id="logo">
+                <p class="bebas">marvel</p>
+                <p class="bebas">univers</p>
+            </div>
+            <div id="navbar">
+                <ul>
+                    <li>
+                        <a href="">Personnages</a>
+                    </li>
+                    <li>
+                        <a href="">Cinéma</a>
+                    </li>
+                    <li>
+                        <a href="">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div id="introduction">
+            <div id="intro-content">
+                <div id="pre-content">
+                    <h2 class="text-red">découvrez l'univers marvel !</h2>
+                    <p class="text-white">Devenez incollable sur l'univers Marvel, ses personnages et ses films...</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="heroes-container">
+            <h2 class="bebas text-red">les personnages emblematiques</h2>
+            <div id="all-heroes">
+                <div class="heroes">
+                    <img src="./img/iron-man.png" alt="personnage iron-man">
+                    <h5>Iron Man</h5>
+                    <p>
+                        Anthony "Tony" Stark, alias Iron Man, est un superhéros évoluant dans l'univers Marvel de la
+                        maison d'édition Marvel Comics.
+                    </p>
+                    <a class="btn-detail text-red" href="">Détail</a>
+                </div>
+
+                <div class="heroes">
+                    <img src="./img/spiderman.png" alt="personnage iron-man">
+                    <h5>Spiderman</h5>
+                    <p>
+                        Peter Pake, alias Spider-Man, est un superhéros évoluant dans l'univers Marvel de la maison
+                        d'édition Marvel Comics.
+                    </p>
+                    <a class="btn-detail text-red" href="">Détail</a>
+                </div>
+
+                <div class="heroes">
+                    <img src="./img/captain-america.png" alt="personnage iron-man">
+                    <h5>Captain America</h5>
+                    <p>
+                        Captain America est un superhéros de bande dessinée évoluant dans l'univers Marvel de la
+                        maison d'édition Marvel Comics.
+                    </p>
+                    <a class="btn-detail text-red" href="">Détail</a>
+                </div>
+
+                <div class="heroes">
+                    <img src="./img/thor.png" alt="personnage iron-man">
+                    <h5>Thor</h5>
+                    <p>
+                        Thor est une divinité et un superhéros évoluant dans l'univers Marvel de la
+                        maison d'édition Marvel Comics.
+                    </p>
+                    <a class="btn-detail text-red" href="">Détail</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="full-video">
+            <div id="video-container">
+                <video autoplay muted loop id="video-fond-avenger">
+                    <source src="./vid/avengers.mp4" type="video/mp4">
+                </video>
+            </div>
+
+            <div id="videos-content" class="text-white">
+                <h2 class="bebas">adaptation au cinema</h2>
+                <div id="all-videos">
+                    <div class="video">
+                        <figure>
+                            <video src="./vid/avengers.mp4" controls></video>
+                        </figure>
+                        <div>
+                            <h4>Iron Man</h4>
+                            <p>Thor est une divinité et un superhéros évoluant dans l'univers Marvel de la
+                                maison d'édition Marvel Comics.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="video">
+                        <figure>
+                            <video src="./vid/avengers.mp4" controls></video>
+                        </figure>
+                        <div>
+                            <h4>Captain America</h4>
+                            <p>Thor est une divinité et un superhéros évoluant dans l'univers Marvel de la
+                                maison d'édition Marvel Comics.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="a-venir">
+                <h2 class="text-white bebas">A venir</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nom du film</th>
+                            <th>Date de sortie</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Captain Mavel</td>
+                            <td>8 mars 2019</td>
+                        </tr>
+                        <tr>
+                            <td>Avengers: Infinity War - Part 2</td>
+                            <td>3 mai 2019</td>
+                        </tr>
+                        <tr>
+                            <td>Spider-Man: Far From Home</td>
+                            <td>5 juillet 2019</td>
+                        </tr>
+                        <tr>
+                            <td>Guardians of the Galaxy Vol. 3</td>
+                            <td>2020</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+
+        <div id="pre-footer">
+            <div id="contactez-nous">
+                <h2 class="bebas text-red">contactez-nous</h2>
+                <form action="" method="POST">
+                    <label for="prenom">Votre prénom :</label>
+                    <div>
+                        <input class="input-style" type="text" id="prenom" name="prenom">
+                    </div>
+                    <label for="email">Votre email :</label>
+                    <div>
+                        <input class="input-style" type="email" id="email" name="email">
+                    </div>
+                    <label for="demande">Objet de la demande :</label>
+                    <div>
+                        <select class="input-style" name="demande" id="demande">
+                            <option value="ev">Evénement</option>
+                            <option value="ev">Evénement</option>
+                            <option value="ev">Evénement</option>
+                        </select>
+                    </div>
+                    <label for="message">Votre message :</label>
+                    <div>
+                        <textarea class="input-style" name="message" id="message" cols="30"
+                            rows="3">Saisissez ici votre message</textarea>
+                    </div>
+                    <div id="submit">
+                        <input class="input-style text-red" type="submit" value="Envoyer">
+                    </div>
+                </form>
+            </div>
+
+            <div id="adresse">
+                <h2 class="bebas text-red">studios marvel</h2>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3311.537191185657!2d-118.38640514890609!3d33.901571333006885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2b40fae4e6a5b%3A0x6312170bff57f5f8!2sManhattan%20Beach%20Studios!5e0!3m2!1sfr!2sfr!4v1584642527154!5m2!1sfr!2sfr"
+                    width="500" height="375" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                    tabindex="0">
+                </iframe>
+            </div>
+        </div>
+
+        <div id="footer" class="text-white">
+            <div id="footer-container">
+                <div id="copyright">
+                    <p>Copyright 2020...</p>
+                </div>
+                <div id="social">
+                    <i class="fab fa-facebook-square"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fab fa-twitter"></i>
+                </div>
+            </div>
+        </div>
+
+    </main>
+</body>
+
+</html>
